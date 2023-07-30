@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(212,45%,89%);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.container{
+    max-width: 360px;
+    margin: 0 auto;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+.card img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.text{
+    padding: 22px 10px;
+}
+.text h2{
+   align-items: center;
+   margin-bottom: 10px;
+}
+.text p{
+    opacity: 0.6;
+}
