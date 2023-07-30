@@ -1,0 +1,117 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color:  hsl(221, 100%, 96%);
+   
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.hero{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+}
+.hero-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    border-radius: 0 0 1rem 1rem ;
+    padding: 30px 40px;
+    background: linear-gradient(360deg,hsl(234, 85%, 45%) 5%,hsl(241, 81%, 54%) 50%,hsl(252, 100%, 67%) 90%);
+    color: hsl(0, 0%, 100%);
+    
+}
+.score h1{
+    width: 90px;
+    height: 90px; 
+    border-radius:5rem;
+    margin: 1rem;
+    background-color: hsl(241, 72%, 46%);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-second{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+.topic{
+    opacity: 0.4;
+    padding: 1rem 1rem 0.5rem ;
+}
+.box >*{
+   display: flex;
+   align-items: center;
+  margin: 0.5rem 1.5rem;
+  padding: 0.8rem 1rem ;
+  border-radius: 0.5rem;
+
+}
+.box-1{
+    background-color:  hsla(0, 100%, 67%, 0.117);    
+}
+.box-2{
+    background-color:  hsla(39, 100%, 56%, 0.117);
+}
+.box-3{
+    background-color:  hsl(166, 100%, 37%,0.117);
+}
+.box-4{
+    background-color:  hsla(234, 85%, 45%, 0.117);
+}
+h6{
+    margin:0 0 0 0.5rem ;
+}
+.category{
+    flex: 1;
+}
+.btn{
+    background-color: hsl(224, 30%, 27%);
+    margin: 0.5rem 2rem 1rem  ;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    color:hsl(0, 0%, 100%) ;
+}
+@media(width> 500px){
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.hero{
+    max-width: 500px;
+    display: flex;
+    height: auto;
+ }
+ .hero-first{
+    border-radius: 1rem;
+ }
+.box>*{
+    padding: auto 2rem;
+    margin: 6px 1.5rem;
+}
+.category{
+    padding: 0 20px 0 0;
+}
+.total{
+    width: 50px;
+}
+
+
+}
